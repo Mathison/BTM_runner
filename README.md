@@ -16,7 +16,7 @@ Yan, X., Guo, J., Lan, Y., & Cheng, X. (2013, May). A biterm topic model for sho
 
 ### Then download the BTM_runner package and run the following command
 
-$ python3 analyze_data.py vocab /local/path/to/vocab.txt /local/path/to/index.txt /your/path/to/json_data/ platform
+$ python3 analyze_data.py vocab  /path/to/vocab.txt  /path/to/index.txt  /path/to/json_data/ platform
 
 > This command will help us build a vocabulary dictionary for each word based on the text we have in the json file, the vocabulary wil be written to /local/path/to/vocab.txt, and then it will do teh word embedding for each text and put the vector in /local/path/to/index.txt
 
@@ -27,11 +27,11 @@ $ python3 analyze_data.py vocab /local/path/to/vocab.txt /local/path/to/index.tx
 - youtube_comment, instagram_comment,tumblr_comment,reddit_comment
 - youtube_title,youtube_description,instagram_post,twitter,tumblr_post,tumblr_description,reddit_description,reddit_title
 
-$ python3 analyze_data.py BTM /local/path/to/vocab.txt /local/path/to/index.txt /local/path/to/BTM_result/ k
+$ python3 analyze_data.py BTM  /path/to/vocab.txt  /path/to/index.txt  /path/to/BTM_result/ k
 
 > This command will help us generate the BTM_result from BTM and write that to /local/path/to/BTM_result/, k is the number of topics we selected
 
-$ python3 write_topicDisplay.py /local/path/to/ BTM_result k /local/path/to/vocab.txt
+$ python3 write_topicDisplay.py  /path/to/ BTM_result k  /path/to/vocab.txt
 
 > This function will write the result of top 30 keywords for each topic under the /local/path/to/BTM_result_topic.txt
 
