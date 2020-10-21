@@ -37,4 +37,4 @@ $ python3 write_topicDisplay.py /local/path/to/ BTM_result k /local/path/to/voca
 -This function will write the result of top 30 keywords for each topic under the /local/path/to/BTM_result_topic.txt
 
 #### The BTM_result_topic basically lookslike below
-![BTM_Topic_result_sample]()
+![BTM_Topic_result_sample](https://github.com/Mathison/BTM_runner/topic_result.JPG)
