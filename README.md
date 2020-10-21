@@ -30,11 +30,11 @@ Each option specify the text part we want to analyze, comment option will run al
 
 $ python3 analyze_data.py BTM /local/path/to/vocab.txt /local/path/to/index.txt /local/path/to/BTM_result/ k
 
--This command will help us generate the BTM_result from BTM and write that to /local/path/to/BTM_result/, k is the number of topics we selected
+- This command will help us generate the BTM_result from BTM and write that to /local/path/to/BTM_result/, k is the number of topics we selected
 
 $ python3 write_topicDisplay.py /local/path/to/ BTM_result k /local/path/to/vocab.txt
 
--This function will write the result of top 30 keywords for each topic under the /local/path/to/BTM_result_topic.txt
+- This function will write the result of top 30 keywords for each topic under the /local/path/to/BTM_result_topic.txt
 
 #### The BTM_result_topic basically looks like below
 ![BTM_Topic_result_sample](https://github.com/Mathison/BTM_runner/topic_result.png)
