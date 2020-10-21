@@ -1,10 +1,11 @@
 # BTM_runner
 
-This is a Python package to run the BTM (Biterm Topic Model) on json data of Twitter, Instagram, Tumblr, Youtube and Reddit
+This is a Python package help to run the BTM (Biterm Topic Model) on json data of Twitter, Instagram, Tumblr, Youtube and Reddit
 
 The original C++ code for BTM is here https://github.com/xiaohuiyan/BTM
 
 Please see this reference if you want to know the details of BTM:
+
 Yan, X., Guo, J., Lan, Y., & Cheng, X. (2013, May). A biterm topic model for short texts. In Proceedings of the 22nd international conference on World Wide Web (pp. 1445-1456).
 
 ### Please construct your system before run this package
