@@ -17,24 +17,22 @@ Yan, X., Guo, J., Lan, Y., & Cheng, X. (2013, May). A biterm topic model for sho
 
 $ python3 analyze_data.py vocab /local/path/to/vocab.txt /local/path/to/index.txt /your/path/to/json_data/ platform
 
-- This command will help us build a vocabulary dictionary for each word based on the text we have in the json file, the vocabulary wil be written to /local/path/to/vocab.txt, and then it will do teh word embedding for each text and put the vector in /local/path/to/index.txt
+> This command will help us build a vocabulary dictionary for each word based on the text we have in the json file, the vocabulary wil be written to /local/path/to/vocab.txt, and then it will do teh word embedding for each text and put the vector in /local/path/to/index.txt
 
-- /your/path/to/json_data/ is a folder used to store the json data for different platforms
+> /your/path/to/json_data/ is a folder used to store the json data for different platforms
 
-platform: This is used specify which platform we are running BTM for, currently it has option:
+> platform: This is used specify which platform we are running BTM for, currently it has these options, each option specify the text part we want to analyze, comment option will run all the comment under each post:
 
--- youtube_comment, instagram_comment,tumblr_comment,reddit_comment
--- youtube_title,youtube_description,instagram_post,twitter,tumblr_post,tumblr_description,reddit_description,reddit_title
-
-- Each option specify the text part we want to analyze, comment option will run all the comment under each post
+- youtube_comment, instagram_comment,tumblr_comment,reddit_comment
+- youtube_title,youtube_description,instagram_post,twitter,tumblr_post,tumblr_description,reddit_description,reddit_title
 
 $ python3 analyze_data.py BTM /local/path/to/vocab.txt /local/path/to/index.txt /local/path/to/BTM_result/ k
 
-- This command will help us generate the BTM_result from BTM and write that to /local/path/to/BTM_result/, k is the number of topics we selected
+> This command will help us generate the BTM_result from BTM and write that to /local/path/to/BTM_result/, k is the number of topics we selected
 
 $ python3 write_topicDisplay.py /local/path/to/ BTM_result k /local/path/to/vocab.txt
 
-- This function will write the result of top 30 keywords for each topic under the /local/path/to/BTM_result_topic.txt
+> This function will write the result of top 30 keywords for each topic under the /local/path/to/BTM_result_topic.txt
 
 #### The BTM_result_topic basically looks like below
 ![BTM_Topic_result_sample](https://github.com/Mathison/BTM_runner/topic_result.png)
