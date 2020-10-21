@@ -248,7 +248,7 @@ def run_btm_inference(no_topics,inputfile,output_path):
     os.system(execute_string)
 
 #############this is the directory where we store the raw jason file
-btm_directory = '/home/jimmy/analyze_tool/BTM-master/src/btm '
+btm_directory = '/BTM-master/src/btm '
 
 #########parameter
 #num_topics = 20
