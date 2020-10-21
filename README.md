@@ -9,7 +9,7 @@ Yan, X., Guo, J., Lan, Y., & Cheng, X. (2013, May). A biterm topic model for sho
 
 ### Please construct your system before run this package
 - Install python3 in your system
-- Install C++ BTM code list above, put them in folder BTM_master (you can name the fodler whatever you want, but please change the BTM path name in the analyze_data.py file)
+- Install C++ BTM code list above, put them in folder BTM_master (you can name the folder whatever you want, but please change the btm_directory in the analyze_data.py file)
 - Configure the C++ file in ./BTM_master/src/ using make, get the btm excute file
 - Install nltk package
 
