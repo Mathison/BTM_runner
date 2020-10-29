@@ -94,7 +94,7 @@ def read_folder(path,platform):
     for filename in sorted(os.listdir(path)):
         d = read_json(path+filename,platform)
         total_data.extend(d)
-    return data
+    return total_data
 
 
 def get_data_text(f):
