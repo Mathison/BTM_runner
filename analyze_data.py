@@ -247,7 +247,7 @@ def run_btm_inference(no_topics,inputfile,output_path):
     print(execute_string)
     os.system(execute_string)
 
-#############this is the directory where we store the raw jason file
+#############this is the directory where we store the raw json file
 btm_directory = '/BTM-master/src/btm '
 
 #########parameter
